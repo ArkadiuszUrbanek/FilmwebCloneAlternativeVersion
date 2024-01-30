@@ -1,0 +1,1 @@
+export type PersonNationalityType = 'American' | 'Scottish' | 'English' | 'Canadian' | 'Welsh' | 'Australian'

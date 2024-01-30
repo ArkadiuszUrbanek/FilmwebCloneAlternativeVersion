@@ -1,0 +1,1 @@
+export type PersonPositionType = 'Actor' | 'Director' | 'Screenwriter'

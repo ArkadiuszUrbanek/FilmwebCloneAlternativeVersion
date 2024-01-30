@@ -1,0 +1,1 @@
+export type FilmGenreType = 'Western' | 'Thriller' | 'Horror' | 'ScienceFiction' | 'Romance' | 'Historical' | 'Drama' | 'Comedy' | 'Fantasy'
