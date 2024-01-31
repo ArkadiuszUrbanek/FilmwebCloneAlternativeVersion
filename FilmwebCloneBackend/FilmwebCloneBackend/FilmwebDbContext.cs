@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using FilmwebCloneBackend.Entities;
+using FilmwebCloneBackend.Converters;
 
 namespace FilmwebCloneBackend
 {
@@ -126,6 +127,7 @@ namespace FilmwebCloneBackend
             base.ConfigureConventions(configurationBuilder);
 
             configurationBuilder.Properties<Enum>().HaveConversion<string>();
+            configurationBuilder.Properties<DateTime>().HaveConversion<DateTimeToUtcDateTimeConverter>();
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

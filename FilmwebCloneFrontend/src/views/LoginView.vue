@@ -53,7 +53,7 @@
     export default {
         setup: () => ({ v$: useVuelidate() }),
         created () {
-            this.lastPath = this.$router.options.history.state.back as string | undefined
+            this.lastPath = (this.$router.options.history.state.back as string | undefined)?.split('?')[0]
         },
         data() {
             return {

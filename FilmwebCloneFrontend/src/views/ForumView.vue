@@ -163,7 +163,7 @@
 
                             return {
                                 ...forum,
-                                creationDate: new Date(forum.creationDate + 'Z'),
+                                creationDate: new Date(forum.creationDate),
                                 author: { ...forum.author }
                             }
                         })
@@ -178,11 +178,11 @@
             },
             getFormattedDate(dateTimeString: string): string {
                 const dateTimeObject = new Date(dateTimeString)
-                return `${dateTimeObject.getUTCDate().toString().padStart(2, '0')}-${(dateTimeObject.getUTCMonth() + 1).toString().padStart(2, '0')}-${dateTimeObject.getUTCFullYear()}`
+                return `${dateTimeObject.getDate().toString().padStart(2, '0')}-${(dateTimeObject.getMonth() + 1).toString().padStart(2, '0')}-${dateTimeObject.getFullYear()}`
             },
             getFormattedTime(dateTimeString: string): string {
                 const dateTimeObject = new Date(dateTimeString)
-                return `${dateTimeObject.getUTCHours().toString().padStart(2, '0')}:${dateTimeObject.getUTCMinutes().toString().padStart(2, '0')}`
+                return `${dateTimeObject.getHours().toString().padStart(2, '0')}:${dateTimeObject.getMinutes().toString().padStart(2, '0')}`
             },
             sort(sortingProperty: ForumSortPropertyType) {
                 if (this.currentSortingProperty !== sortingProperty) {

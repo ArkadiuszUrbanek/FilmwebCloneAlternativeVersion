@@ -115,7 +115,7 @@
               <path fill="none" stroke="#18193f" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M36.5,40.5h3c2.2,0,4-1.8,4-4v-5C43.5,12.5,34.3,8,30,8c0,0-2-2.5-7-2.5c-5.7,0-11,2.4-14.5,8.1"/><circle cx="19" cy="28" r="2" fill="#18193f"/>
               <circle cx="29" cy="28" r="2" fill="#18193f"/>
             </svg>
-            <div class="text-sm font-semibold">{{ `${review.author.firstName} ${review.author.lastName}` }} • <span class="font-normal"> {{ getFormattedReviewDateString(review.creationDate.toString() + 'Z') }}</span></div>
+            <div class="text-sm font-semibold">{{ `${review.author.firstName} ${review.author.lastName}` }} • <span class="font-normal"> {{ getFormattedReviewDateString(review.creationDate.toString()) }}</span></div>
           </div>
           
         </div>
@@ -195,7 +195,7 @@
 
                     this.film = {
                         ...response.data,
-                        releaseDate: new Date(response.data.releaseDate),
+                        releaseDate: new Date(response.data.releaseDate.toString() + 'T00:00:00.000Z'),
                         duration: duration
                     }
 
@@ -236,7 +236,7 @@
                       if (this.$store.getters.sub === review.author.id) this.currentUserReviewId = review.id
                       return {
                           ...review,
-                          creationDateDate: new Date(review.creationDate + 'Z'),
+                          creationDateDate: new Date(review.creationDate),
                           author: { ...review.author }
                       }
                   })

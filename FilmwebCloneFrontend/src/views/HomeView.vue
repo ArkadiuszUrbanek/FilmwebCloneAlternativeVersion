@@ -66,6 +66,7 @@
         },
         methods: {
             //date.toLocaleString('en-US', {year: 'numeric', month: 'long', day: 'numeric' })
+            //new Date().ToISOSting().slice(0, 10)
             async getFilms() {
                 try {
                     const response = await axios.get<FilmBasicInfoType[]>('/Film/all')
@@ -80,7 +81,7 @@
 
                         return {
                             ...film,
-                            releaseDate: new Date(film.releaseDate),
+                            releaseDate: new Date(film.releaseDate.toString() + 'T00:00:00.000Z'),
                             duration: duration
                         }
                     })

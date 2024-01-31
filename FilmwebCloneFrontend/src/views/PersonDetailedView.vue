@@ -43,7 +43,7 @@
 
                     this.person = {
                         ...response.data,
-                        birthDate: new Date(response.data.birthDate + 'Z')
+                        birthDate: new Date(response.data.birthDate.toString() + 'T00:00:00.000Z')
                     }
 
                 } catch(error) {
