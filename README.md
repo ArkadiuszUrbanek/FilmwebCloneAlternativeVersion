@@ -9,7 +9,7 @@
   * 3.2.1. [Frameworks](#321-Frameworks)  
   * 3.2.2. [Libraries](#322-Libraries)  
   * 3.2.3. [Database](#322-Database)  
-5. [External specification](#4-External-specification)  
+4. [External specification](#4-External-specification)  
 * 4.1. [Screenshots](#41-Screenshots)  
 * 4.2. [GIFs](#42-GIFs)
 
