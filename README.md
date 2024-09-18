@@ -1,4 +1,5 @@
 # Table of contents  
+
 1. [Project description](#1-Project-description)  
 2. [Entity-relationship diagram](#2-Entity-relationship-diagram)  
 3. [Internal specification](#3-Internal-specification)  
