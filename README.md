@@ -38,7 +38,7 @@ The project involved creating an application that would serve as an online datab
 # Entity-relationship diagram  
 ![ERD](https://github.com/user-attachments/assets/c54c751f-f7f5-4a92-b46b-422aea4db957)  
 
-#External specification
+# External specification
 
 ## Screenshots  
 ![login_view](https://github.com/user-attachments/assets/638d9ea5-51d8-40cd-9a00-d00fb6fb3b50)
