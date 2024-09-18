@@ -28,6 +28,7 @@ The project involved creating an application that would serve as an online datab
 
 ### 3.2.3. Database
 - **MySQL** – An open-source relational database management system currently developed by Oracle.
+![ERD](https://github.com/user-attachments/assets/c54c751f-f7f5-4a92-b46b-422aea4db957)
 
 # 4. External specification
 
