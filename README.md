@@ -1,10 +1,10 @@
 # Table of contents  
-1. [Project description](#Project-description)  
-2. [Entity-relationship diagram](#Entity-relationship-diagram)  
-3. [Internal specification](#Internal-specification)  
-4. [External specification](#External-specification)  
-   4.1. [Screenshots](#Screenshots)  
-   4.2. [GIFs](#GIFs)  
+1. [Project description](#1.-Project-description)  
+2. [Entity-relationship diagram](#2.-Entity-relationship-diagram)  
+3. [Internal specification](#3.-Internal-specification)  
+4. [External specification](#4.-External-specification)  
+   4.1. [Screenshots](#4.1.-Screenshots)  
+   4.2. [GIFs](#4.2.-GIFs)  
 
 # 1. Project description  
 The project involved creating an application that would serve as an online database for movies, TV shows, and the actors starring in them. Being aware of the existence of similar solutions on the market, it was decided to take inspiration from the Polish website [Filmweb](https://www.filmweb.pl/), which is the second-largest film and cinema-related website in the world. The primary objectives during the project were: enabling user login and registration, allowing users to browse movies, TV shows, and the actors featured in them, allowing logged-in users to rate and write reviews, as well as creating new threads on the discussion forum and responding to them. Additionally, the project required the use of three technologies related to the .NET platform developed by Microsoft.  
