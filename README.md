@@ -14,27 +14,34 @@
 * 4.2. [GIFs](#42-GIFs)
 
 # Table of Contents  
-1. [Project description](#1-Project-description)  
-2. [Entity-relationship diagram](#2-Entity-relationship-diagram)   
-3. [Internal specification](#3-Internal-specification)  
-   <ol>
-     <li>3.1. <a href="#31-Client-side-spplication">Client-side application</a></li>
-     <ol>
-       <li>3.1.1. <a href="#311-Frameworks">Frameworks</a></li>
-       <li>3.1.2. <a href="#312-Libraries">Libraries</a></li>
-     </ol>
-     <li>3.2. <a href="#32-Server-side-spplication">Server-side application</a></li>
-     <ol>
-       <li>3.2.1. <a href="#321-Frameworks">Frameworks</a></li>
-       <li>3.2.2. <a href="#322-Libraries">Libraries</a></li>
-       <li>3.2.3. <a href="#323-Database">Database</a></li>
-     </ol>
-   </ol>
-4. [External specification](#4-External-specification)  
-   <ol>
-     <li>4.1. <a href="#41-Screenshots">Screenshots</a></li>
-     <li>4.2. <a href="#42-GIFs">GIFs</a></li>
-   </ol>
+<ol>
+  <li><a href="#1-Project-description">Project description</a></li>
+  <li><a href="#2-Entity-relationship-diagram">Entity-relationship diagram</a></li>
+  <li>
+    <a href="#3-Internal-specification">Internal specification</a>
+    <ol>
+      <li><a href="#31-Client-side-spplication">Client-side application</a>
+        <ol>
+          <li><a href="#311-Frameworks">Frameworks</a></li>
+          <li><a href="#312-Libraries">Libraries</a></li>
+        </ol>
+      </li>
+      <li><a href="#32-Server-side-spplication">Server-side application</a>
+        <ol>
+          <li><a href="#321-Frameworks">Frameworks</a></li>
+          <li><a href="#322-Libraries">Libraries</a></li>
+          <li><a href="#323-Database">Database</a></li>
+        </ol>
+      </li>
+    </ol>
+  </li>
+  <li><a href="#4-External-specification">External specification</a>
+    <ol>
+      <li><a href="#41-Screenshots">Screenshots</a></li>
+      <li><a href="#42-GIFs">GIFs</a></li>
+    </ol>
+  </li>
+</ol>
 
 # 1. Project description  
 The project involved creating an application that would serve as an online database for movies, TV shows, and the actors starring in them. Being aware of the existence of similar solutions on the market, it was decided to take inspiration from the Polish website [Filmweb](https://www.filmweb.pl/), which is the second-largest film and cinema-related website in the world. The primary objectives during the project were: enabling user login and registration, allowing users to browse movies, TV shows, and the actors featured in them, allowing logged-in users to rate and write reviews, as well as creating new threads on the discussion forum and responding to them. Additionally, the project required the use of three technologies related to the .NET platform developed by Microsoft.
