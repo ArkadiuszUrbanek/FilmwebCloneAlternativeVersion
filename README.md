@@ -6,7 +6,7 @@
 &ensp;3.1.1. [Frameworks](#311-Frameworks)  
 &ensp;3.1.2. [Libraries](#312-Libraries)  
 &nbsp;3.2. [Server-side application](#32-Server-side-spplication)  
-    3.2.1. [Frameworks](#321-Frameworks)  
+3.2.1. [Frameworks](#321-Frameworks)  
 &ensp;3.2.2. [Libraries](#322-Libraries)  
 &ensp;3.2.3. [Database](#322-Database)  
 5. [External specification](#4-External-specification)  
