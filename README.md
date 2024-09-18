@@ -1,3 +1,6 @@
+> [!TIP]
+> For a better experience, consider using Github's built-in table of contents. It can help you navigate the document more efficiently.
+
 # 1. Project description  
 The project involved creating an application that would serve as an online database for movies, TV shows, and the actors starring in them. Being aware of the existence of similar solutions on the market, it was decided to take inspiration from the Polish website [Filmweb](https://www.filmweb.pl/), which is the second-largest film and cinema-related website in the world. The primary objectives during the project were: enabling user login and registration, allowing users to browse movies, TV shows, and the actors featured in them, allowing logged-in users to rate and write reviews, as well as creating new threads on the discussion forum and responding to them. Additionally, the project required the use of three technologies related to the .NET platform developed by Microsoft.
 
@@ -40,7 +43,7 @@ The project involved creating an application that would serve as an online datab
 ![forum_view](https://github.com/user-attachments/assets/d68c4318-ede0-427d-a815-7a038181204d)
 
 ## 3.2. GIFs
-> [!WARNING]
+> [!IMPORTANT]
 > The speed of GIF animations may not correspond to the actual speed of the application.
 
 ![logging_into_account](https://github.com/user-attachments/assets/05d94535-0c15-4baf-aa4e-3f316244f65e)
