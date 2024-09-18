@@ -11,7 +11,7 @@ The project involved creating an application that would serve as an online datab
 ![movie_view](https://github.com/user-attachments/assets/60bb70ae-90f0-4753-b81b-78b6a6cd48cf)
 ![review_dialog](https://github.com/user-attachments/assets/24322b99-58e5-42d4-a531-45098846b341)
 ![forum_list_view](https://github.com/user-attachments/assets/f6654569-e22b-4db0-ac4a-d7c3f13c4614)
-![forum_view](https://github.com/user-attachments/assets/8bb493b1-f5d9-49e7-bfa3-60a512e4f394)  
+![forum_view](https://github.com/user-attachments/assets/d68c4318-ede0-427d-a815-7a038181204d)
 
 # GIFs  
 ![logging_into_account](https://github.com/user-attachments/assets/533a5dec-f0bf-42c5-953f-28204e5639ae)
