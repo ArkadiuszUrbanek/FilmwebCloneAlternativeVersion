@@ -1,5 +1,5 @@
 > [!TIP]
-> For a better experience, consider using Github's built-in table of contents.
+> For a better experience, consider using Github's built-in table of contents.  
 > It can help you navigate the document more efficiently.
 
 # 1. Project description  
