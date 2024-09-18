@@ -5,8 +5,8 @@ The project involved creating an application that would serve as an online datab
 ![ERD](https://github.com/user-attachments/assets/c54c751f-f7f5-4a92-b46b-422aea4db957)  
 
 # Screenshots  
-![signup_view](https://github.com/user-attachments/assets/466042fd-63c4-40d0-971e-f4ce5c696a30)
 ![login_view](https://github.com/user-attachments/assets/638d9ea5-51d8-40cd-9a00-d00fb6fb3b50)
+![signup_view](https://github.com/user-attachments/assets/466042fd-63c4-40d0-971e-f4ce5c696a30)
 ![movie_list_view](https://github.com/user-attachments/assets/c39720eb-8f6a-4cc8-a420-f36ec7d49fbf)
 ![movie_view](https://github.com/user-attachments/assets/60bb70ae-90f0-4753-b81b-78b6a6cd48cf)
 ![review_dialog](https://github.com/user-attachments/assets/24322b99-58e5-42d4-a531-45098846b341)
@@ -14,8 +14,9 @@ The project involved creating an application that would serve as an online datab
 ![forum_view](https://github.com/user-attachments/assets/d68c4318-ede0-427d-a815-7a038181204d)
 
 # GIFs  
-![logging_into_account](https://github.com/user-attachments/assets/533a5dec-f0bf-42c5-953f-28204e5639ae)  
-![signing_up](https://github.com/user-attachments/assets/c10953b0-499f-4e0b-8385-276d4b98a091)
-![poster_animation](https://github.com/user-attachments/assets/5ba933ee-40a1-4034-8140-881a8b913b82)
-![picture_slider](https://github.com/user-attachments/assets/99667854-dbff-48e8-8ad3-af1c2a16e6c3)
-![browsing_forum_list](https://github.com/user-attachments/assets/e5bf8ccd-1831-4dfa-892f-90d1b2869f82)
+**<span style="color: red;">Warning: The speed of GIF animations may not correspond to the actual speed of the application.</span>**
+![logging_into_account](https://github.com/user-attachments/assets/05d94535-0c15-4baf-aa4e-3f316244f65e)
+![signing_up](https://github.com/user-attachments/assets/ca34fd48-4b8c-4f11-94b0-a872b458cb51)
+![poster_animation](https://github.com/user-attachments/assets/58adb7c7-3785-4ea2-8257-9053c11a5810)
+![picture_slider](https://github.com/user-attachments/assets/d8408c6d-6c73-4526-a4b8-6d8038e89754)
+![browsing_forum_list](https://github.com/user-attachments/assets/99bfd8ee-fa9d-4fe2-9781-1172797e564c)
