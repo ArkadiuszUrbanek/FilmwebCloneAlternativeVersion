@@ -3,7 +3,7 @@
 2. [Entity-relationship diagram](#2.-Entity-relationship-diagram)  
 3. [Internal specification](#3.-Internal-specification)  
 4. [External specification](#4.-External-specification)  
-   4.1. [Screenshots](#4.1.-Screenshots)  
+   4.1. [Screenshots](#Screenshots)  
    4.2. [GIFs](#4.2.-GIFs)  
 
 # 1. Project description  
@@ -40,7 +40,7 @@ Database used in the server-side application
 
 # 4. External specification
 
-## 4.1. Screenshots  
+## Screenshots  
 ![login_view](https://github.com/user-attachments/assets/638d9ea5-51d8-40cd-9a00-d00fb6fb3b50)
 ![signup_view](https://github.com/user-attachments/assets/466042fd-63c4-40d0-971e-f4ce5c696a30)
 ![movie_list_view](https://github.com/user-attachments/assets/c39720eb-8f6a-4cc8-a420-f36ec7d49fbf)
