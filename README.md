@@ -43,7 +43,7 @@ The project involved creating an application that would serve as an online datab
 ![forum_view](https://github.com/user-attachments/assets/d68c4318-ede0-427d-a815-7a038181204d)
 
 ## 3.2. GIFs
-> [!IMPORTANT]
+> [!WARNING]
 > The speed of GIF animations may not correspond to the actual speed of the application.
 
 ![logging_into_account](https://github.com/user-attachments/assets/05d94535-0c15-4baf-aa4e-3f316244f65e)
