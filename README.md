@@ -13,6 +13,11 @@
 * 4.1. [Screenshots](#41-Screenshots)  
 * 4.2. [GIFs](#42-GIFs)
 
+ol li {display:block;} /* hide original list counter */
+ol > li:first-child {counter-reset: item;} /* reset counter */
+ol > li {counter-increment: item; position: relative;} /* increment counter */
+ol > li:before {content:counters(item, ".") ". "; position: absolute; margin-right: 100%; right: 10px;} /* print counter */
+
 # Table of Contents  
 <ol>
   <li><a href="#1-Project-description">Project description</a></li>
