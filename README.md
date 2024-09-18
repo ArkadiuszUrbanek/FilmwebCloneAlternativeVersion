@@ -13,41 +13,69 @@
 * 4.1. [Screenshots](#41-Screenshots)  
 * 4.2. [GIFs](#42-GIFs)
 
-ol li {display:block;} /* hide original list counter */
-ol > li:first-child {counter-reset: item;} /* reset counter */
-ol > li {counter-increment: item; position: relative;} /* increment counter */
-ol > li:before {content:counters(item, ".") ". "; position: absolute; margin-right: 100%; right: 10px;} /* print counter */
-
 # Table of Contents  
-<ol>
-  <li><a href="#1-Project-description">Project description</a></li>
-  <li><a href="#2-Entity-relationship-diagram">Entity-relationship diagram</a></li>
-  <li>
+<ol style="list-style: none; padding-left: 0;">
+  <li style="position: relative; counter-increment: item; display: block;">
+    <span style="position: absolute; right: 10px; margin-right: 100%; content: counter(item) '. '; counter-reset: item;">1. </span>
+    <a href="#1-Project-description">Project description</a>
+  </li>
+  <li style="position: relative; counter-increment: item; display: block;">
+    <span style="position: absolute; right: 10px; margin-right: 100%; content: counter(item) '. '; counter-reset: item;">2. </span>
+    <a href="#2-Entity-relationship-diagram">Entity-relationship diagram</a>
+  </li>
+  <li style="position: relative; counter-increment: item; display: block;">
+    <span style="position: absolute; right: 10px; margin-right: 100%; content: counter(item) '. '; counter-reset: item;">3. </span>
     <a href="#3-Internal-specification">Internal specification</a>
-    <ol>
-      <li><a href="#31-Client-side-spplication">Client-side application</a>
-        <ol>
-          <li><a href="#311-Frameworks">Frameworks</a></li>
-          <li><a href="#312-Libraries">Libraries</a></li>
+    <ol style="list-style: none; padding-left: 0;">
+      <li style="position: relative; counter-increment: item; display: block;">
+        <span style="position: absolute; right: 10px; margin-right: 100%; content: counters(item, '.') '. '; counter-reset: item;">3.1. </span>
+        <a href="#31-Client-side-spplication">Client-side application</a>
+        <ol style="list-style: none; padding-left: 0;">
+          <li style="position: relative; counter-increment: item; display: block;">
+            <span style="position: absolute; right: 10px; margin-right: 100%; content: counters(item, '.') '. '; counter-reset: item;">3.1.1. </span>
+            <a href="#311-Frameworks">Frameworks</a>
+          </li>
+          <li style="position: relative; counter-increment: item; display: block;">
+            <span style="position: absolute; right: 10px; margin-right: 100%; content: counters(item, '.') '. '; counter-reset: item;">3.1.2. </span>
+            <a href="#312-Libraries">Libraries</a>
+          </li>
         </ol>
       </li>
-      <li><a href="#32-Server-side-spplication">Server-side application</a>
-        <ol>
-          <li><a href="#321-Frameworks">Frameworks</a></li>
-          <li><a href="#322-Libraries">Libraries</a></li>
-          <li><a href="#323-Database">Database</a></li>
+      <li style="position: relative; counter-increment: item; display: block;">
+        <span style="position: absolute; right: 10px; margin-right: 100%; content: counters(item, '.') '. '; counter-reset: item;">3.2. </span>
+        <a href="#32-Server-side-spplication">Server-side application</a>
+        <ol style="list-style: none; padding-left: 0;">
+          <li style="position: relative; counter-increment: item; display: block;">
+            <span style="position: absolute; right: 10px; margin-right: 100%; content: counters(item, '.') '. '; counter-reset: item;">3.2.1. </span>
+            <a href="#321-Frameworks">Frameworks</a>
+          </li>
+          <li style="position: relative; counter-increment: item; display: block;">
+            <span style="position: absolute; right: 10px; margin-right: 100%; content: counters(item, '.') '. '; counter-reset: item;">3.2.2. </span>
+            <a href="#322-Libraries">Libraries</a>
+          </li>
+          <li style="position: relative; counter-increment: item; display: block;">
+            <span style="position: absolute; right: 10px; margin-right: 100%; content: counters(item, '.') '. '; counter-reset: item;">3.2.3. </span>
+            <a href="#323-Database">Database</a>
+          </li>
         </ol>
       </li>
     </ol>
   </li>
-  <li><a href="#4-External-specification">External specification</a>
-    <ol>
-      <li><a href="#41-Screenshots">Screenshots</a></li>
-      <li><a href="#42-GIFs">GIFs</a></li>
+  <li style="position: relative; counter-increment: item; display: block;">
+    <span style="position: absolute; right: 10px; margin-right: 100%; content: counter(item) '. '; counter-reset: item;">4. </span>
+    <a href="#4-External-specification">External specification</a>
+    <ol style="list-style: none; padding-left: 0;">
+      <li style="position: relative; counter-increment: item; display: block;">
+        <span style="position: absolute; right: 10px; margin-right: 100%; content: counters(item, '.') '. '; counter-reset: item;">4.1. </span>
+        <a href="#41-Screenshots">Screenshots</a>
+      </li>
+      <li style="position: relative; counter-increment: item; display: block;">
+        <span style="position: absolute; right: 10px; margin-right: 100%; content: counters(item, '.') '. '; counter-reset: item;">4.2. </span>
+        <a href="#42-GIFs">GIFs</a>
+      </li>
     </ol>
   </li>
 </ol>
-
 # 1. Project description  
 The project involved creating an application that would serve as an online database for movies, TV shows, and the actors starring in them. Being aware of the existence of similar solutions on the market, it was decided to take inspiration from the Polish website [Filmweb](https://www.filmweb.pl/), which is the second-largest film and cinema-related website in the world. The primary objectives during the project were: enabling user login and registration, allowing users to browse movies, TV shows, and the actors featured in them, allowing logged-in users to rate and write reviews, as well as creating new threads on the discussion forum and responding to them. Additionally, the project required the use of three technologies related to the .NET platform developed by Microsoft.
 
