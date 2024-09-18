@@ -13,20 +13,28 @@
 * 4.1. [Screenshots](#41-Screenshots)  
 * 4.2. [GIFs](#42-GIFs)
 
-## Table of contents  
+# Table of Contents  
 1. [Project description](#1-Project-description)  
 2. [Entity-relationship diagram](#2-Entity-relationship-diagram)   
 3. [Internal specification](#3-Internal-specification)  
-    - 3.1. [Client-side application](#31-Client-side-spplication)
-        - 3.1.1. [Frameworks](#311-Frameworks)  
-        - 3.1.2. [Libraries](#312-Libraries)  
-    - 3.2. [Server-side application](#32-Server-side-spplication)
-        - 3.2.1. [Frameworks](#321-Frameworks)
-        - 3.2.2. [Libraries](#322-Libraries)  
-        - 3.2.3. [Database](#322-Database)  
-5. [External specification](#4-External-specification)  
-    - 4.1. [Screenshots](#41-Screenshots)  
-    - 4.2. [GIFs](#42-GIFs)
+   <ol>
+     <li>3.1. <a href="#31-Client-side-spplication">Client-side application</a></li>
+     <ol>
+       <li>3.1.1. <a href="#311-Frameworks">Frameworks</a></li>
+       <li>3.1.2. <a href="#312-Libraries">Libraries</a></li>
+     </ol>
+     <li>3.2. <a href="#32-Server-side-spplication">Server-side application</a></li>
+     <ol>
+       <li>3.2.1. <a href="#321-Frameworks">Frameworks</a></li>
+       <li>3.2.2. <a href="#322-Libraries">Libraries</a></li>
+       <li>3.2.3. <a href="#323-Database">Database</a></li>
+     </ol>
+   </ol>
+4. [External specification](#4-External-specification)  
+   <ol>
+     <li>4.1. <a href="#41-Screenshots">Screenshots</a></li>
+     <li>4.2. <a href="#42-GIFs">GIFs</a></li>
+   </ol>
 
 # 1. Project description  
 The project involved creating an application that would serve as an online database for movies, TV shows, and the actors starring in them. Being aware of the existence of similar solutions on the market, it was decided to take inspiration from the Polish website [Filmweb](https://www.filmweb.pl/), which is the second-largest film and cinema-related website in the world. The primary objectives during the project were: enabling user login and registration, allowing users to browse movies, TV shows, and the actors featured in them, allowing logged-in users to rate and write reviews, as well as creating new threads on the discussion forum and responding to them. Additionally, the project required the use of three technologies related to the .NET platform developed by Microsoft.
