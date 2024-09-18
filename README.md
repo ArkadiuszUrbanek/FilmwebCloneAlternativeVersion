@@ -5,13 +5,10 @@
 4. [External specification](#4-External-specification)  
    4.1. [Screenshots](#41-Screenshots)  
    4.2. [GIFs](#42-GIFs)  
-
 # 1. Project description  
 The project involved creating an application that would serve as an online database for movies, TV shows, and the actors starring in them. Being aware of the existence of similar solutions on the market, it was decided to take inspiration from the Polish website [Filmweb](https://www.filmweb.pl/), which is the second-largest film and cinema-related website in the world. The primary objectives during the project were: enabling user login and registration, allowing users to browse movies, TV shows, and the actors featured in them, allowing logged-in users to rate and write reviews, as well as creating new threads on the discussion forum and responding to them. Additionally, the project required the use of three technologies related to the .NET platform developed by Microsoft.  
-
 # 2. Entity-relationship diagram
 ![ERD](https://github.com/user-attachments/assets/c54c751f-f7f5-4a92-b46b-422aea4db957)  
-
 # 3. Internal specification
 ## 3.1. Client-Side Application
 ### 3.1.1. Frameworks
@@ -29,7 +26,6 @@ The project involved creating an application that would serve as an online datab
 - **Microsoft.AspNetCore.Authentication.JwtBearer** – A library providing authentication and authorization mechanisms based on JWT (JSON Web Token).
 ### 3.2.3. Database
 - **MySQL** – An open-source relational database management system currently developed by Oracle.
-
 # 4. External specification
 ## 4.1. Screenshots
 ![login_view](https://github.com/user-attachments/assets/638d9ea5-51d8-40cd-9a00-d00fb6fb3b50)
@@ -39,7 +35,6 @@ The project involved creating an application that would serve as an online datab
 ![review_dialog](https://github.com/user-attachments/assets/24322b99-58e5-42d4-a531-45098846b341)
 ![forum_list_view](https://github.com/user-attachments/assets/f6654569-e22b-4db0-ac4a-d7c3f13c4614)
 ![forum_view](https://github.com/user-attachments/assets/d68c4318-ede0-427d-a815-7a038181204d)
-
 ## 4.2. GIFs
 > [!WARNING]
 > The speed of GIF animations may not correspond to the actual speed of the application.
