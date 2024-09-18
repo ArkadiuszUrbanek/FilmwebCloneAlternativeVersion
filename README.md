@@ -3,7 +3,7 @@
 2. [Entity-relationship diagram](#2-Entity-relationship-diagram)   
 3. [Internal specification](#3-Internal-specification)  
    3.1. [Client-side application](#31-Client-side-spplication)  
-      3.1.1. [Frameworks](#311-Frameworks)  
+&ensp;3.1.1. [Frameworks](#311-Frameworks)  
       3.1.2. [Libraries](#312-Libraries)  
    3.2. [Server-side application](#32-Server-side-spplication)  
       3.2.1. [Frameworks](#321-Frameworks)  
