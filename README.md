@@ -59,8 +59,15 @@ The project involved creating an application that would serve as an online datab
 > [!WARNING]
 > The speed of GIF animations may not correspond to the actual speed of the application.
 
-![logging_into_account](https://github.com/user-attachments/assets/05d94535-0c15-4baf-aa4e-3f316244f65e)
-![signing_up](https://github.com/user-attachments/assets/ca34fd48-4b8c-4f11-94b0-a872b458cb51)
-![poster_animation](https://github.com/user-attachments/assets/58adb7c7-3785-4ea2-8257-9053c11a5810)
-![picture_slider](https://github.com/user-attachments/assets/d8408c6d-6c73-4526-a4b8-6d8038e89754)
-![browsing_forum_list](https://github.com/user-attachments/assets/99bfd8ee-fa9d-4fe2-9781-1172797e564c)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/05d94535-0c15-4baf-aa4e-3f316244f65e">
+  <p><em>Logging into account</em></p>
+  <img src="https://github.com/user-attachments/assets/ca34fd48-4b8c-4f11-94b0-a872b458cb51">
+  <p><em>Signing up</em></p>
+  <img src="https://github.com/user-attachments/assets/58adb7c7-3785-4ea2-8257-9053c11a5810">
+  <p><em>Demonstration of poster animation</em></p>
+  <img src="https://github.com/user-attachments/assets/d8408c6d-6c73-4526-a4b8-6d8038e89754">
+  <p><em>Demonstration of image carousel</em></p>
+  <img src="https://github.com/user-attachments/assets/99bfd8ee-fa9d-4fe2-9781-1172797e564c">
+  <p><em>Browsing forum list</em></p>
+</div>
