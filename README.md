@@ -46,6 +46,8 @@ The project involved creating an application that would serve as an online datab
   <img src="https://github.com/user-attachments/assets/c39720eb-8f6a-4cc8-a420-f36ec7d49fbf">
   <p><em>Movie list view</em></p>
   <img src="https://github.com/user-attachments/assets/60bb70ae-90f0-4753-b81b-78b6a6cd48cf">
+  <p><em>Movie view</em></p>
+  <img src="https://github.com/user-attachments/assets/24322b99-58e5-42d4-a531-45098846b341">
   <p><em>Review dialog</em></p>
   <img src="https://github.com/user-attachments/assets/f6654569-e22b-4db0-ac4a-d7c3f13c4614">
   <p><em>Forum list view</em></p>
